@@ -2,7 +2,7 @@ Hello to the first test blog entry.
 
 This is a image:
 
-![Figure 1-1](https://raw.github.com/username/repo/master/images/figure 1-1.png "Figure 1-1")
+![Figure 1](https://github.com/felix-ha/felix-ha.github.io/blob/master/images/test.png "Figure 1")
 
 Some Code here: 
 
