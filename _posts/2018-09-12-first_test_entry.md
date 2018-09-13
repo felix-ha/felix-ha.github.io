@@ -1,4 +1,11 @@
+---
+mathjax: true
+---
 Hello to the first test blog entry. 
+
+An equation 1:
+
+$$a^2 + b^2 = c^2$$
 
 Some Code here: 
 
