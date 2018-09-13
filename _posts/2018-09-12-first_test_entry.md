@@ -40,4 +40,4 @@ class Classifier:
 
 This is a image:
 
-![Figure 1](images/test.png)
+![Figure 1](/images/test.png)
