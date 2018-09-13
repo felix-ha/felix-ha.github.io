@@ -7,6 +7,8 @@ An equation 1:
 
 $$a^2 + b^2 = c^2$$
 
+Some Text with inline formula $$\sum\nolimits_{k=0}^N a_k$$
+
 Some Code here: 
 
 ```python
@@ -44,4 +46,4 @@ class Classifier:
 
 This is a image:
 
-![Figure 1](/images/test.png "Figure")
+![Figure 1](../images/test.png)
