@@ -1,6 +1,5 @@
 ---
-mathjax: true
-use_math: true
+layout: post
 ---
 
 Hello to the first test blog entry. 
