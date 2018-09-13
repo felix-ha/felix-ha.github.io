@@ -1,4 +1,6 @@
-
+---
+mathjax: true
+---
 Hello to the first test blog entry. 
 
 An equation:
@@ -7,10 +9,6 @@ $$
 \left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
  \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
 $$
-
-{% raw %}
-  $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
- {% endraw %}
 
 Some Code here: 
 
