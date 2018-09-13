@@ -1,5 +1,6 @@
 ---
 mathjax: true
+use_math: true
 ---
 
 Hello to the first test blog entry. 
