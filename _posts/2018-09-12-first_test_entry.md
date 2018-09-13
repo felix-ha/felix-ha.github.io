@@ -11,9 +11,9 @@ $$
  \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
 $$
 
-This is a image:
-
-![Figure 1](images/test.png "Figure")
+{% raw %}
+  $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
+ {% endraw %}
 
 Some Code here: 
 
@@ -49,3 +49,7 @@ class Classifier:
 
         return class_val, class_probs
 ```
+
+This is a image:
+
+![Figure 1](images/test.png "Figure")
