@@ -1,8 +1,19 @@
+---
+mathjax: true
+---
+
 Hello to the first test blog entry. 
+
+An equation:
+
+$$
+\left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
+ \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+$$
 
 This is a image:
 
-![Figure 1](/images/test.png "Figure 1")
+![Figure 1](images/test.png "Figure")
 
 Some Code here: 
 
