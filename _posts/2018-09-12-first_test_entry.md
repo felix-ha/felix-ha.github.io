@@ -1,6 +1,3 @@
----
-layout: post
----
 
 Hello to the first test blog entry. 
 
