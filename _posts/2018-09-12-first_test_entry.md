@@ -3,6 +3,15 @@ mathjax: true
 ---
 
 
+### Hello
+
+An equation 1:
+
+$$a^2 + b^2 = c^2$$
+
+Some Text with inline formula $$\sum\nolimits_{k=0}^N a_k$$
+
+
 Some Code here: 
 
 ```python
