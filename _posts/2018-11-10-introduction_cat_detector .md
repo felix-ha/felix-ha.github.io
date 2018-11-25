@@ -3,7 +3,7 @@ mathjax: true
 ---
 
 
-# Cat Detector
+# Introduction for the Cat Detector
 
 I am looking forward to build a detector for my two cats. The detector should spot if the cats are eating or drinking. 
 
@@ -27,3 +27,6 @@ At the start of the development I want to train a classifier as fast as possible
 First of all I use a fixed position of the camera, later I will probably use a detector thats finds the cups. But for now I will concentrate to train the classifier. To do this, I have to collect images. When I'm feeding the cats I can shoot pictures with a high frequence. Of I have to be carefull, becaue they will probably be only in one position.  
 
 
+[Back](https://felix-ha.github.io/2018/11/10/overview_cat_detector)
+
+[Home](https://felix-ha.github.io)
