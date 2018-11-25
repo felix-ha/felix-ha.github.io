@@ -15,10 +15,12 @@ And here's an image of the cats while eating.
 
 ![Figure 1](/images/2018_11_10_1.png)
 
+The detector is therefore a binary classificator, that returns a probabilty how likely there is a cat on the image. 
 
-I will use a Raspberry Pi with the Raspberry Pi camera. I will program the whole project with python. I will train a convolutional neural network with tensorflow to classify the images of the cups of the cats. To do basic image processing tasks, I will use OpenCV.
 
-From the stand point of data I want to start from scratch, i. e. I will collect and label the whole data on my own. I also will use no pretrained neural network. 
+I use a Raspberry Pi 3 Model B with the Raspberry Pi camera. The programming language of choice is python. I will train a convolutional neural network with tensorflow to classify the images of the cups of the cats. To do basic image processing tasks, I will use OpenCV.
+
+I'm going to do everything from scratch, i. e. I will collect and label the whole data on my own. I also will use no pretrained neural network. 
 
 
 At the start of the development I want to train a classifier as fast as possible. With this classifier I can automatically collect Images through the whole day. Of course this classifier will have not a high accuracy, but it pretty much helps with building the data set on the long run. 

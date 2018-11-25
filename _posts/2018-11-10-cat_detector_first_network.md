@@ -5,9 +5,11 @@ mathjax: true
 
 # Training of the first neural network
 
+I shot pictures with the camera of the Raspberry Pi. From these I cropp regions of interest, or short roi, with the size of 185 x 300 so that I can see the naps perfectly. After that the roi is resized to 56 x 56. These are the images with which the neural network is trained. Later I will talk about how I preprocess the images. 
+
 Among other things I started learning about deep learning with book from Nikhil Buduma which is called "Fundamentals of Deep Learning: Designing Next-Generation Machine Intelligence Algorithms". He starts appliyng deep learning to the famous MNIST data set. As I first just tried to run the code from the book, I will use this for the cat detector. 
 
-The architecture of this neural net has 2 convolutional layers and two fully connected layers.
+The architecture of this neural net has 2 convolutional layers and two fully connected layers. The activation function of the fully connected layers is the tanh function. 
 
 The python code looks like this:
 
@@ -31,14 +33,28 @@ def inference(x):
     return output
 ```
 
-I had some problem with the dropout when using the net in production, so at the beginning there is no dropout. To predict the class of the image you would call
+As mentioned above,
+```python
+height = width = 56
+```
+and
+```python
+ channels = 3
+ ```
+ because the images are colored. For now there is no dropout. To predict the class of the image you would call
 
 ```python
 def prediction(output):
     return tf.nn.softmax(output)
 ```
 
-and receive the probabilty of each class. For the training of the net I use stochastic gradient descent with a batch size of 128 and 25 epochs in total. The first data set had around 800 images for each class. I split the data set into a training, a test and a validation set with a ratio of 0.8, 0.1 and 0.1 respectively.
+and receive the probabilty of each class. For the training of the net I use stochastic gradient descent with a batch size of 128 and 25 epochs in total. The first data set had around 800 images for each class. I split the data set into a training, a test and a validation set with a ratio of 0.8, 0.1 and 0.1 respectively. The validation set is not used at the moment, I just wanted to set up the data handling properly because I will use it later. The training of the neural network is done with the gradient descent optimizer from tensorflow with a constant learning rate of 0.001. The accuracy of the test set was around 95 %. Sounds quit good, doesn't it?
+
+Because the Raspberry stands in the middle of our flat, I have to put it away from time to time and so I was not able to find exact the same position of the camera when setting it up again. I build a little UI with the Tkinter package for python. With this I am able to fix the position of the roi very convenient. But as you can see from the images, the neural network is quite sensible if the position of the roi changes. The same image just with a difference of pixel in the x direction leads to a different class. 
+
+![Figure 1](/images/cat.png) ![Figure 1](/images/no_cat.png)
+
+This is definitely not the behaviour I want from the classifier, so I need a solution for this problem. In the next step I will improve the way a I collect the images. 
 
 
 [Back](https://felix-ha.github.io/2018/11/10/introduction_cat_detector)
