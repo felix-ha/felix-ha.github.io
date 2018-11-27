@@ -1,4 +1,4 @@
-## Welcome to my site
+# Welcome to my site
 
 I'm interested in mathematics and programming. In particular numerical mathematics, computer vision, robotics, raspberry pi and machine learning. 
 
