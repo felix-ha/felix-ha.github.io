@@ -57,8 +57,8 @@ Because the Raspberry stands in the middle of our flat, I have to put it away fr
 This is definitely not the behaviour I want from the classifier, so I need a solution for this problem. In the next step I will improve the way a I collect the images. 
 
 
-[Next Post](https://felix-ha.github.io/2018/12/01/first_data_set)
+[Next Post](https://felix-ha.github.io/2018/12/02/first_data_set)
 
-[Previous Post](https://felix-ha.github.io/2018/11/10/introduction_cat_detector)
+[Previous Post](https://felix-ha.github.io/2018/11/29/overview_cat_detector)
 
 [Home](https://felix-ha.github.io)

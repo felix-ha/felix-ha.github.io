@@ -57,8 +57,8 @@ f1 score:  0.8063241106719369
 
 
 
+[Next Post](https://felix-ha.github.io/2018/12/03/next_steps)
 
-
-[Previous Post](https://felix-ha.github.io/2018/11/10/cat_detector_first_network)
+[Previous Post](https://felix-ha.github.io/2018/12/01/first_network)
 
 [Home](https://felix-ha.github.io)

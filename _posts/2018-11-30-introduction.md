@@ -21,8 +21,8 @@ I have no idea wether this is going to be successfull or not. With this series o
 So let's get started! In the next post I present you the results of the first trained neural network.
 
 
-[Next Post](https://felix-ha.github.io/2018/11/10/cat_detector_first_network)
+[Next Post](https://felix-ha.github.io/2018/12/01/first_network)
 
-[Overview](https://felix-ha.github.io/2018/11/30-overview_cat_detector)          
+[Overview](https://felix-ha.github.io/2018/11/29/overview_cat_detector)    
 
 [Home](https://felix-ha.github.io)
