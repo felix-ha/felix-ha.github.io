@@ -59,6 +59,6 @@ This is definitely not the behaviour I want from the classifier, so I need a sol
 
 [Next Post](https://felix-ha.github.io/2018/12/02/first_data_set)
 
-[Previous Post](https://felix-ha.github.io/2018/11/29/overview_cat_detector)
+[Previous Post](https://felix-ha.github.io/2018/11/30/introduction)
 
 [Home](https://felix-ha.github.io)
