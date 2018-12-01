@@ -16,7 +16,7 @@ I use a Raspberry Pi 3 Model B with the Raspberry Pi camera. The programming lan
 
 I'm going to do everything from scratch, i. e. I will collect and label the whole data on my own. I also will use no pretrained neural network.  
 
-I have no idea wether this is going to be successfull or not. With this series of posts I will share 
+I have no idea wether this is going to be successfull or not. With this series of posts I will share the process and results of the development. 
 
 So let's get started! In the next post I present you the results of the first trained neural network.
 

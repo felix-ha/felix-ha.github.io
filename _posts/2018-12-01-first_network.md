@@ -7,9 +7,9 @@ mathjax: true
 
 I shot pictures with the camera of the Raspberry Pi. From these I cropp regions of interest, or short roi, with the size of 185 x 300 so that I can see the naps perfectly. After that the roi is resized to 56 x 56. These are the images with which the neural network is trained. Later I will talk about how I preprocess the images. 
 
-Among other things I started learning about deep learning with book from Nikhil Buduma which is called "Fundamentals of Deep Learning: Designing Next-Generation Machine Intelligence Algorithms". He starts appliyng deep learning to the famous MNIST data set. As I first just tried to run the code from the book, I will use this for the cat detector. 
+Among other things I started learning about deep learning with book from Nikhil Buduma which is called "Fundamentals of Deep Learning: Designing Next-Generation Machine Intelligence Algorithms". He starts appliyng deep learning to the famous MNIST data set. As I first just tried to run the code from the book, I used this code for my own tests with neural networks. This worked for a previous project, so for now I will use this for the cat detector. Later I consider to change the architecture of the net. 
 
-The architecture of this neural net has 2 convolutional layers and two fully connected layers. The activation function of the fully connected layers is the tanh function. 
+The architecture of this neural net has 2 convolutional layers and two fully connected layers. The activation function of the fully connected layers is the $$\operatorname{tanh}$$ function. In a previous project I had some troubles with vanishing gradients. Scaling the images in a range to $$[-\frac{1}{2}, \frac{1}{2}]$$ and using the $$\operatorname{tanh}$$ as a the activation function for the fully connected layers solved this problem. Of course this is not the best fix, but it works for the moment. 
 
 The python code looks like this:
 
