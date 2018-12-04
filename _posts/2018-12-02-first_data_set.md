@@ -2,19 +2,10 @@
 
 As i mentioned, I changed the way to collect the images. To fix the issue with spatial variance, I set the x and y coordiante with a random offset. The images look now like this:
 
-
 ![Figure 1](/images/2018-12-01/1.png) ![Figure 1](/images/2018-12-01/2.png)
 ![Figure 1](/images/2018-12-01/3.png) ![Figure 1](/images/2018-12-01/4.png)
 
-
-```console
-training data shape (2664, 56, 56, 3)
-test data shape (297, 56, 56, 3)
-validation data shape (200, 56, 56, 3)
-number of images in class 0:  1550
-number of images in class 1:  1411
-```
-
+If you look close, you can see that the postion of each picture is a litte different. With this way I collected a total of 2664 images. There are 1550 images from class 0 (no cat) and 1441 images from class 1 (cat). From this data set I took 200 images randomly to form a validation set. This set is going to be fixed over the next time as a reference. I use the scikit-learn library to split the training and test test set with a ration of 9 to 1 respectively. The training set consists of 2664 images and the test set consists of 297 images. I trained the neural network with a batch size of 128. This is what I printed to the console to keep record of the training: 
 ```console
 Training neural network:
 Epoch: 1 Loss: 14.119385182857513
@@ -36,9 +27,6 @@ Epoch: 15 Loss: 10.647811144590378
 Optimization Finished!
 Test Accuracy: 0.83501685
 Validation Accuracy: 0.78
-name of prediction:  mlp_model/prediction_op:0
-saved model
-
 ---------------
 evaluation of training:
 
@@ -54,7 +42,8 @@ recall:  0.7183098591549296
 f1 score:  0.8063241106719369
 
 ```
-
+I implemented the confusion matrix and some more metrics to measure the performance as you can see. For now I just use the accuracy.
+For the validation set it is 0.78. With all tests that follow I try to make this accuracy better. Let's see how close to 1 I can get. 
 
 
 [Next Post](https://felix-ha.github.io/2018/12/03/next_steps)
