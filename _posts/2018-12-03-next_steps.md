@@ -2,7 +2,7 @@
 
 I will implement and test the following techniques to improve the accuracy of the validation set:
 
-* [Regularization: Dropout and batch normalization](https://felix-ha.github.io/2018/12/04/droput)
+* [Regularization: Dropout and batch normalization](https://felix-ha.github.io/2018/12/04/dropout)
 * Different optimizer 
 * Dataset Augmention
 * Data Preprocessing
