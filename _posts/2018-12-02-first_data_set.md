@@ -1,11 +1,12 @@
 # The first large data set
 
-As i mentioned, I changed the way to collect the images. To fix the issue with spatial variance, I set the x and y coordiante with a random offset. The images look now like this:
+As I mentioned, I changed the way to collect the images. To fix the issue with spatial variance, I set the x and y coordinates with a random offset. The images look now like this:
 
 ![Figure 1](/images/2018-12-01/1.png) ![Figure 1](/images/2018-12-01/2.png)
 ![Figure 1](/images/2018-12-01/3.png) ![Figure 1](/images/2018-12-01/4.png)
 
-If you look close, you can see that the postion of each picture is a litte different. With this way I collected a total of 2664 images. There are 1550 images from class 0 (no cat) and 1441 images from class 1 (cat). From this data set I took 200 images randomly to form a validation set. This set is going to be fixed over the next time as a reference. I use the scikit-learn library to split the training and test test set with a ration of 9 to 1 respectively. The training set consists of 2664 images and the test set consists of 297 images. I trained the neural network with a batch size of 128. This is what I printed to the console to keep record of the training: 
+If you look close, you can see that the position of each picture is a little different. In this way, I collected a total of 2664 images. There are 1550 images from class 0 (no cat) and 1441 images from class 1 (cat). From this data set, I took 200 images randomly to form a validation set. This set is going to be fixed over the next time as a reference. I use the scikit-learn library to split the training and test set with a ratio of 9 to 1 respectively. The training set consists of 2664 images and the test set consists of 297 images. I trained the neural network with a batch size of 128. This is what I printed to the console to keep the record of the training: 
+
 ```console
 Training neural network:
 Epoch: 1 Loss: 14.119385182857513
@@ -42,8 +43,8 @@ recall:  0.7183098591549296
 f1 score:  0.8063241106719369
 
 ```
-I implemented the confusion matrix and some more metrics to measure the performance as you can see. For now I just use the accuracy.
-For the validation set it is 0.78. With all tests that follow I try to make this accuracy better. Let's see how close to 1 I can get. 
+I implemented the confusion matrix and some more metrics to measure the performance as you can see. For now, I just use the accuracy.
+For the validation set, it is 0.78. With all tests that follow I try to make this accuracy better. Let's see how close to 1 I can get. 
 
 
 [Next Post](https://felix-ha.github.io/2018/12/03/next_steps)

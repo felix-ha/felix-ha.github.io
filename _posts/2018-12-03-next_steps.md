@@ -4,12 +4,12 @@ I will implement and test the following techniques to improve the accuracy of th
 
 * Regularization: Dropout and batch normalization
 * Different optimizer 
-* Dataset augmention
+* Dataset augmentation
 * Data preprocessing
 * Architecture of the net 
 
 
-I will combine each of the best working method and hopefully the accuracy is close to 1 and a live test will give a satisfying result. 
+I will combine each of the best working methods and hopefully, the accuracy is close to 1 and a live test will give a satisfying result. 
 
 As I mentioned, I'm currently not working on this. 
 
