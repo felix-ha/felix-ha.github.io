@@ -6,10 +6,10 @@ mathjax: true
 
 confusion matrix: 
 
- $$\begin{matrix}
+ $$\begin{bmatrix}
  TN & FP \\ 
  FN & TP 
- \end{matrix}$$
+ \end{bmatrix}$$
 
  $$
  \text{precision} = \frac{TP}{TP+FP}
