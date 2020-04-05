@@ -11,8 +11,6 @@ I will move to Berlin in the next months, so I'm currently looking for a job the
 
 On this page, I'd like to present some of the work that I do in my spare time for fun. 
 
-[The Data Science Handbook](https://felix-ha.github.io/2019/07/12/Data_Science_Handbook) 
-
 [Here you can see my self-driving car powered by a raspberry pi.](https://felix-ha.github.io/2019/01/03/gopigo) 
 
 [Here is the cat detector.](https://felix-ha.github.io/2018/11/29/overview_cat_detector) Unfortunately, this project is not really finished, but I plan to continue it as soon as I finished my thesis and moved to my new flat. 
